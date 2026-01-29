@@ -49,7 +49,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "Kisba Black", serif;
+    font-family: 'Kisba Black', serif;
 }
 h1 {
     font-size: 40px;
@@ -277,7 +277,7 @@ footer#site-footer .socials {
 }
 
 .title-banner h1 {
-    font-family: "Kisba Black", serif;
+    font-family: 'Kisba Black', serif;
     color: #ffb70d;
 }
 
@@ -318,7 +318,7 @@ footer#site-footer .socials {
 }
 
 .home-feature p.heading.hero {
-    font-family: "Kisba Black", serif;
+    font-family: 'Kisba Black', serif;
     font-weight: 900;
     font-style: normal;
     text-transform: uppercase;
