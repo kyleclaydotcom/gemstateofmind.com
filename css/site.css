@@ -308,7 +308,7 @@ footer#site-footer .socials {
     left: 50%;
     -ms-transform: translate(-50%,-50%);
     transform: translate(-50%,-50%);
-    z-index: 1000;
+    z-index: 999;
 }
 
 .banner.home-feature .slider .image {
@@ -324,7 +324,7 @@ footer#site-footer .socials {
     bottom: 15px;
     right: 15px;
     font-size: 14px;
-    z-index: 1000;
+    z-index: 999;
 }
 
 .banner.home-feature p.heading.hero {
