@@ -293,7 +293,9 @@ footer#site-footer .socials {
 }
 
 .banner.home-feature,
-.banner.home-feature .slider {
+.banner.home-feature .slider,
+.banner.home-feature .slick-track,
+.banner.home-feature .slick-list {
     min-height: calc(100vh - 60px);
     height: calc(100vh - 60px);
     /* overflow-x: hidden;
@@ -306,6 +308,7 @@ footer#site-footer .socials {
     left: 50%;
     -ms-transform: translate(-50%,-50%);
     transform: translate(-50%,-50%);
+    z-index: 1000;
 }
 
 .banner.home-feature .slider .image {
@@ -321,6 +324,7 @@ footer#site-footer .socials {
     bottom: 15px;
     right: 15px;
     font-size: 14px;
+    z-index: 1000;
 }
 
 .banner.home-feature p.heading.hero {
@@ -348,9 +352,12 @@ footer#site-footer .socials {
     }
 }
 @media (min-width: 768px) {
-    .banner.home-feature {
-        min-height: calc(100vh - 100px);
-        height: calc(100vh - 100px);
+    .banner.home-feature,
+    .banner.home-feature .slider,
+    .banner.home-feature .slick-track,
+    .banner.home-feature .slick-list {
+        min-height: 100vh;
+        height: 100vh;
     }
     .banner.home-feature p.heading.hero {
         font-size: 140px;
