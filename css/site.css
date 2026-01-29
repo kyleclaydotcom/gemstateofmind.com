@@ -292,29 +292,27 @@ footer#site-footer .socials {
     }
 }
 
-.banner.takeover.home-feature {
-    min-height: calc(50vh - 60px);
-    height: calc(50vh - 60px);
-    overflow-x: hidden;
-    overflow-y: scroll;
+.banner.takeover.home-feature,
+.banner.takeover.home-feature .slider {
+    min-height: calc(100vh - 60px);
+    height: calc(100vh - 60px);
+    /* overflow-x: hidden;
+    overflow-y: scroll; */
 }
 
-.home-feature:before {
-    content:'';
-    display: block;
-    width: 2000px;
-    height: 2000px;
-    border-radius: 1000px;
-    position: fixed;
+.home-feature .container {
+    position: absolute;
     top: 50%;
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
     left: 50%;
-    background: #FFB70D;
-    background: -webkit-linear-gradient(45deg, #ffb70d 0%, rgba(255, 153, 13, 1) 100%);
-    background: -moz-linear-gradient(45deg, rgba(255, 183, 13, 1) 0%, rgba(255, 153, 13, 1) 100%);
-    background: linear-gradient(45deg, rgba(255, 183, 13, 1) 0%, rgba(255, 153, 13, 1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#FFB70D", endColorstr="#FF990D", GradientType=0);
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}
+
+.home-feature .slider .image .credit {
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    font-size: 14px;
 }
 
 .home-feature p.heading.hero {
@@ -330,25 +328,16 @@ footer#site-footer .socials {
     .home-feature p.heading.hero {
         font-size: 70px;
     }
-        .home-feature p.heading.hero:last-of-type {
-            font-size: 40px;
-        }
 }
 @media (min-width: 500px) {
     .home-feature p.heading.hero {
         font-size: 90px;
     }
-        .home-feature p.heading.hero:last-of-type {
-            font-size: 50px;
-        }
 }
 @media (min-width: 576px) {
     .home-feature p.heading.hero {
         font-size: 100px;
     }
-        .home-feature p.heading.hero:last-of-type {
-            font-size: 60px;
-        }
 }
 @media (min-width: 768px) {
     .banner.takeover.home-feature {
@@ -358,25 +347,16 @@ footer#site-footer .socials {
     .home-feature p.heading.hero {
         font-size: 140px;
     }
-        .home-feature p.heading.hero:last-of-type {
-            font-size: 80px;
-        }
 }
 @media (min-width: 992px) {
     .home-feature p.heading.hero {
         font-size: 180px;
     }
-        .home-feature p.heading.hero:last-of-type {
-            font-size: 90px;
-        }
 }
 @media (min-width: 1200px) {
     .home-feature p.heading.hero {
         font-size: 200px;
     }
-        .home-feature p.heading.hero:last-of-type {
-            font-size: 100px;
-        }
 }
 
 .banner.takeover.about-feature {
