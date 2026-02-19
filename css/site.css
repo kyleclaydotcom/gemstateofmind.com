@@ -381,7 +381,7 @@ footer#site-footer .socials {
     flex-direction: row;
     flex-wrap: wrap;
     max-width: 576px;
-    margin: 60px 0;
+    margin: 60px auto;
 }
 .blog-listing .item {
     width: 100%;
@@ -424,6 +424,7 @@ footer#site-footer .socials {
 .blog-listing .item .text .heading {
     font-family: "Kisba Black";
     margin: 30px 0;
+    font-size: 24px;
 }
 .blog-listing .item .text .read-story {
     border-top: 1px solid #202020;
@@ -434,6 +435,9 @@ footer#site-footer .socials {
 }
 
 @media (min-width: 768px) {
+    .blog-listing .component-inner {
+        max-width: 1200px;
+    }
     .blog-listing .item {
         width: 45%;
         background: rgba(255,255,255,0.1);
