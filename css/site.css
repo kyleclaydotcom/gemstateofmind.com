@@ -380,12 +380,15 @@ footer#site-footer .socials {
     justify-content: space-evenly;
     flex-direction: row;
     flex-wrap: wrap;
+    max-width: 576px;
+    margin: 60px 0;
 }
 .blog-listing .item {
-    width: 48%;
+    width: 100%;
     background: rgba(255,255,255,0.1);
     border-radius: 15px;
     overflow: hidden;
+    margin-bottom: 25px;
 }
 .blog-listing .item .image {
     background-size: cover;
@@ -416,18 +419,28 @@ footer#site-footer .socials {
     font-weight: 300;
     text-transform: uppercase;
     padding-bottom: 15px;
-    border-bottom: 2px solid #e3e3e3;
+    border-bottom: 1px solid #202020;
 }
 .blog-listing .item .text .heading {
     font-family: "Kisba Black";
     margin: 30px 0;
 }
 .blog-listing .item .text .read-story {
-    border-top: 2px solid #e3e3e3;
+    border-top: 1px solid #202020;
     font-family: "Inter", sans-serif;
     font-weight: 300;
     text-transform: uppercase;
     padding-top: 15px;
+}
+
+@media (min-width: 768px) {
+    .blog-listing .item {
+        width: 45%;
+        background: rgba(255,255,255,0.1);
+        border-radius: 15px;
+        overflow: hidden;
+        margin-bottom: 25px;
+    }
 }
 
 /* Forms */
