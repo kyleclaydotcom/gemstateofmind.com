@@ -390,6 +390,9 @@ footer#site-footer .socials {
     overflow: hidden;
     margin-bottom: 25px;
 }
+    .blog-listing .item:hover, .blog-listing .item:focus {
+        background: rgba(255,255,255,0.05);
+    }
 .blog-listing .item .image {
     background-size: cover;
     background-position: center center;
