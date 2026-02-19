@@ -447,6 +447,12 @@ footer#site-footer .socials {
     }
 }
 
+@media (min-width: 1350px) {
+    .blog-listing .item {
+        margin-bottom: 40px;
+    }
+}
+
 /* Forms */
 .contact-form {
     padding: 80px 20px;
