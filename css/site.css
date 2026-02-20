@@ -459,6 +459,27 @@ footer#site-footer .socials {
     }
 }
 
+/* Blog Post */
+.blog-post {
+    max-width: 1500px;
+    margin: 120px auto;
+    display: flex;
+    flex-direction: column;
+}
+.blog-post .post-content {
+    width: calc(100% - 300px);
+    padding: 0 25px;
+    order: 1;
+}
+.blog-post .sidebar-left {
+    width: 300px;
+    order: 2;
+}
+.blog-post .sidebar-right {
+    width: 300px;
+    order: 3;
+}
+
 /* Forms */
 .contact-form {
     padding: 80px 20px;
