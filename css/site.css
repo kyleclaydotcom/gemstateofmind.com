@@ -467,17 +467,18 @@ footer#site-footer .socials {
     flex-direction: column;
 }
 .blog-post .post-content {
-    width: calc(100% - 300px);
+    width: calc(100% - 600px);    
     padding: 0 25px;
     order: 1;
 }
-.blog-post .sidebar-left {
-    width: 300px;
+.blog-post .post-footer {
     order: 2;
 }
-.blog-post .sidebar-right {
-    width: 300px;
+.blog-post .sidebar-left {
     order: 3;
+}
+.blog-post .sidebar-right {
+    order: 4;
 }
 
 /* Forms */
