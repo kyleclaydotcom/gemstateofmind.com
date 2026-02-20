@@ -389,6 +389,9 @@ footer#site-footer .socials {
     border-radius: 15px;
     overflow: hidden;
     margin-bottom: 25px;
+    text-decoration: none;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
 }
     .blog-listing .item:hover, .blog-listing .item:focus {
         background: rgba(255,255,255,0.05);
