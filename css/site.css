@@ -461,17 +461,17 @@ footer#site-footer .socials {
 
 /* Blog Post */
 .blog-post {
-    max-width: 1500px;
+    max-width: 992px;
     margin: 120px auto;
     display: flex;
     flex-direction: column;
 }
 .blog-post .post-content {
-    width: calc(100% - 600px);    
     padding: 0 25px;
     order: 1;
 }
 .blog-post .post-footer {
+    padding: 0 25px;
     order: 2;
 }
 .blog-post .sidebar-left {
@@ -479,6 +479,12 @@ footer#site-footer .socials {
 }
 .blog-post .sidebar-right {
     order: 4;
+}
+
+@media (min-width: 1500px) {
+    .blog-post {
+        max-width: 1500px;
+    }
 }
 
 /* Forms */
