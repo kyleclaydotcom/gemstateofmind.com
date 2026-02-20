@@ -470,10 +470,10 @@ footer#site-footer .socials {
     padding: 0 25px;
     order: 1;
 }
-.blog-post .sidebar-left {
+.blog-post .sidebar.left {
     order: 2;
 }
-.blog-post .sidebar-right {
+.blog-post .sidebar.right {
     order: 3;
 }
 
@@ -484,11 +484,13 @@ footer#site-footer .socials {
     .blog-post .post-content {
         order: 2;
     }
-    .blog-post .sidebar-left {
+    .blog-post .sidebar.left {
         order: 1;
+        width: 300px;
     }
-    .blog-post .sidebar-right {
+    .blog-post .sidebar.right {
         order: 3;
+        width: 300px;
     }
 }
 
