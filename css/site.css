@@ -483,6 +483,8 @@ footer#site-footer .socials {
     }
     .blog-post .post-content {
         order: 2;
+        width: calc(100% - 600px);
+        margin: auto;
     }
     .blog-post .sidebar.left {
         order: 1;
