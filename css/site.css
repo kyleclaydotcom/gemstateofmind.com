@@ -470,20 +470,25 @@ footer#site-footer .socials {
     padding: 0 25px;
     order: 1;
 }
-.blog-post .post-footer {
-    padding: 0 25px;
+.blog-post .sidebar-left {
     order: 2;
 }
-.blog-post .sidebar-left {
-    order: 3;
-}
 .blog-post .sidebar-right {
-    order: 4;
+    order: 3;
 }
 
 @media (min-width: 1500px) {
     .blog-post {
         max-width: 1500px;
+    }
+    .blog-post .post-content {
+        order: 2;
+    }
+    .blog-post .sidebar-left {
+        order: 1;
+    }
+    .blog-post .sidebar-right {
+        order: 3;
     }
 }
 
