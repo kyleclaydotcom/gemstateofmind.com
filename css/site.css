@@ -498,6 +498,7 @@ footer#site-footer .socials {
     font-family: "Inter", sans-serif;
     display: inline-block;
     margin: 0 20px 0 0;
+    font-size: 14px;
 }
 .author-card {
     display: flex;
