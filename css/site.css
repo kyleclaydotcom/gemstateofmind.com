@@ -17,7 +17,7 @@ body {
     background: rgb(30,21,42);
     color: #fff;
     margin-top: 60px;
-    line-height: 1.2;
+    line-height: 1.4;
     font-size: 18px;
 }
 body main p,
@@ -29,7 +29,7 @@ body main ul {
 }
 body main a {
     text-decoration-color: #00aec7;
-    text-decoration-thickness: 2px;
+    text-decoration-thickness: 3px;
 }
 @media (min-width: 768px) {
     body {
