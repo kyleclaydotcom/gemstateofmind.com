@@ -20,9 +20,22 @@ body {
     line-height: 1.2;
     font-size: 18px;
 }
+body main p,
+body main ul {
+    margin: 12px 0 0;
+}
+body main ul {
+    padding-left: 30px;
+}
 @media (min-width: 768px) {
     body {
         margin-top: 0;
+    }
+}
+@media (min-width: 992px) {
+    body main p,
+    body main ul {
+        margin: 20px 0 0;
     }
 }
 
@@ -470,11 +483,22 @@ footer#site-footer .socials {
     padding: 0 25px;
     order: 1;
 }
+.blog-post .post-content h1,
+.blog-post .post-content hr {
+    margin: 15px 0;
+}
 .blog-post .sidebar.left {
     order: 2;
 }
 .blog-post .sidebar.right {
     order: 3;
+}
+
+@media (min-width: 992px) {
+    .blog-post .post-content h1,
+    .blog-post .post-content hr {
+        margin: 30px 0;
+    }
 }
 
 @media (min-width: 1500px) {
