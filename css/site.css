@@ -20,8 +20,7 @@ body {
     line-height: 1.5;
     font-size: 18px;
 }
-body main p,
-body main ul {
+body main p {
     margin: 15px 0 0;
 }
 body main ul {
@@ -37,8 +36,7 @@ body main a {
     }
 }
 @media (min-width: 992px) {
-    body main p,
-    body main ul {
+    body main p {
         margin: 25px 0 0;
     }
 }
