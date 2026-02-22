@@ -20,10 +20,10 @@ body {
     line-height: 1.5;
     font-size: 18px;
 }
-body main p:not(.heading),
-body main p:not(.secondary-heading),
-body main p:not(.category),
-body main p:not(.date) {
+p:not(.heading),
+p:not(.secondary-heading),
+p:not(.category),
+p:not(.date) {
     margin: 20px 0 0;
 }
 body main ul {
