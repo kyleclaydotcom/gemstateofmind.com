@@ -424,6 +424,7 @@ footer#site-footer .socials {
     font-family: "Inter", sans-serif;
     font-weight: 700;
     text-transform: uppercase;
+    margin: 0;
 }
 .blog-listing .item .image img {
     opacity: 0;
@@ -438,6 +439,7 @@ footer#site-footer .socials {
     text-transform: uppercase;
     padding-bottom: 15px;
     border-bottom: 1px solid #202020;
+    margin: 0;
 }
 .blog-listing .item .text .heading {
     font-family: "Kisba Black";
