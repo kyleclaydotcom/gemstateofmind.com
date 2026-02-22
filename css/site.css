@@ -492,6 +492,10 @@ footer#site-footer .socials {
 .blog-post .post-content img {
     margin-top: 20px 0 0;
 }
+.post-footer .post-date,
+.post-footer .post-categories {
+    margin-bottom: 10px;
+}
 .author-card {
     display: flex;
     flex-direction: row;
@@ -514,6 +518,9 @@ footer#site-footer .socials {
     font-size: 14px;
     margin: 10px 0 0;
     font-family: "Inter", sans-serif;
+}
+.author-card .bio .socials {
+    margin-top: 20px;
 }
 .author-card .bio .socials ul {
     list-style: none;
