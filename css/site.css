@@ -20,7 +20,9 @@ body {
     line-height: 1.5;
     font-size: 18px;
 }
-body main p {
+body main p:not(.heading),
+body main p:not(.secondary-heading),
+body main p:not(.category) {
     margin: 20px 0 0;
 }
 body main ul {
