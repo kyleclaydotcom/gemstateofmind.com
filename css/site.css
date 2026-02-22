@@ -502,13 +502,13 @@ footer#site-footer .socials {
 }
 .author-card {
     display: flex;
-    flex-direction: row;
+    flex-direction: column-reverse;
     width: 100%;
 }
 .author-card .bio {
     width: 80%;
 }
-.author-card .bio .secondary-heading {
+.post-footer .secondary-heading {
     font-family: "Inter", sans-serif;
     font-weight: 700;
     text-transform: uppercase;
@@ -535,14 +535,26 @@ footer#site-footer .socials {
         margin-right: 10px;
     }
 .author-card .headshot {
-    width: 20%;
-    margin-left: 20px;
+    max-width: 250px;
+    margin-bottom: 20px;
 }
 .blog-post .sidebar.left {
     order: 2;
 }
 .blog-post .sidebar.right {
     order: 3;
+}
+
+@media (min-width: 768px) {
+    .author-card {
+        flex-direction: row;
+    }
+    .author-card .headshot {
+        max-width: 250px;
+        width: 20%;
+        margin-bottom: 0;
+        margin-left: 20px;
+    }
 }
 
 @media (min-width: 992px) {
