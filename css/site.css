@@ -27,6 +27,10 @@ body main ul {
 body main ul {
     padding-left: 30px;
 }
+body main a {
+    text-decoration-color: #00aec7;
+    text-decoration-thickness: 2px;
+}
 @media (min-width: 768px) {
     body {
         margin-top: 0;
@@ -487,6 +491,9 @@ footer#site-footer .socials {
 .blog-post .post-content hr {
     margin: 15px 0;
 }
+.blog-post .post-content img {
+    margin-top: 12px 0 0;
+}
 .blog-post .sidebar.left {
     order: 2;
 }
@@ -498,6 +505,9 @@ footer#site-footer .socials {
     .blog-post .post-content h1,
     .blog-post .post-content hr {
         margin: 30px 0;
+    }
+    .blog-post .post-content img {
+        margin: 20px 0 0;
     }
 }
 
