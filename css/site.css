@@ -492,6 +492,28 @@ footer#site-footer .socials {
 .blog-post .post-content img {
     margin-top: 20px 0 0;
 }
+.author-card .bio .secondary-heading {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #999;
+}
+.author-card .bio .heading {
+    font-family: "Kisba Black", serif;
+    font-weight: 24px;
+}
+.author-card .bio p:not(.secondary-heading):not(.heading) {
+    font-size: 14px;
+    margin: 10px 0 0;
+}
+.author-card .bio .socials ul {
+    list-style: none;
+    padding-left: 0;
+}
+    .author-card .bio .socials ul li {
+        display: inline-block;
+        margin-right: 10px;
+    }
 .blog-post .sidebar.left {
     order: 2;
 }
