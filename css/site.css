@@ -20,12 +20,6 @@ body {
     line-height: 1.5;
     font-size: 18px;
 }
-p:not(.heading),
-p:not(.secondary-heading),
-p:not(.category),
-p:not(.date) {
-    margin: 20px 0 0;
-}
 body main ul {
     padding-left: 30px;
 }
