@@ -485,9 +485,11 @@ footer#site-footer .socials {
     padding: 0 25px;
     order: 1;
 }
-.blog-post .post-content h1,
-.blog-post .post-content hr {
+.blog-post .post-content h1 {
     margin: 20px 0;
+}
+.blog-post .post-content hr {
+    margin: 40px 0;
 }
 .blog-post .post-content img {
     margin: 20px 0 0;
@@ -559,8 +561,7 @@ footer#site-footer .socials {
 }
 
 @media (min-width: 992px) {
-    .blog-post .post-content h1,
-    .blog-post .post-content hr {
+    .blog-post .post-content h1 {
         margin: 40px 0;
     }
     .blog-post .post-content img {
