@@ -492,6 +492,10 @@ footer#site-footer .socials {
 .blog-post .post-content img {
     margin-top: 20px 0 0;
 }
+.author-card {
+    display: flex;
+    flex-direction: row;
+}
 .author-card .bio .secondary-heading {
     font-family: "Inter", sans-serif;
     font-weight: 700;
@@ -514,6 +518,10 @@ footer#site-footer .socials {
         display: inline-block;
         margin-right: 10px;
     }
+.author-card .headshot {
+    width: 20%;
+    margin-left: 20px;
+}
 .blog-post .sidebar.left {
     order: 2;
 }
