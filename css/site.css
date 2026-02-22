@@ -508,7 +508,7 @@ footer#site-footer .socials {
     width: 100%;
 }
 .author-card .bio {
-    width: 80%;
+    width: 100%;
 }
 .post-footer .secondary-heading {
     font-family: "Inter", sans-serif;
@@ -551,6 +551,9 @@ footer#site-footer .socials {
 @media (min-width: 768px) {
     .author-card {
         flex-direction: row;
+    }
+    .author-card .bio {
+        width: 80%;
     }
     .author-card .headshot {
         max-width: 250px;
