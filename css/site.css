@@ -490,7 +490,7 @@ footer#site-footer .socials {
     margin: 20px 0;
 }
 .blog-post .post-content img {
-    margin-top: 20px 0 0;
+    margin: 20px 0 0;
 }
 .post-content .post-date,
 .post-content .post-categories {
@@ -513,6 +513,7 @@ footer#site-footer .socials {
     font-weight: 700;
     text-transform: uppercase;
     color: #999;
+    margin-bottom: 15px;
 }
 .author-card .bio .heading {
     font-family: "Kisba Black", serif;
