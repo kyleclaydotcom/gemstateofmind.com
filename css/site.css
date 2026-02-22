@@ -492,10 +492,12 @@ footer#site-footer .socials {
 .blog-post .post-content img {
     margin-top: 20px 0 0;
 }
-.post-footer .post-date,
-.post-footer .post-categories {
+.post-content .post-date,
+.post-content .post-categories {
     margin-bottom: 10px;
     font-family: "Inter", sans-serif;
+    display: inline-block;
+    margin: 0 15px 15px 0;
 }
 .author-card {
     display: flex;
