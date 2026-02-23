@@ -1,58 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
+---
+layout: default
+title: Gem State of Mind
+permalink: /
+---
 
-<head>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DMW1VXZWNG"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-    
-      gtag('config', 'G-DMW1VXZWNG');
-    </script>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Gem State of Mind</title>
-    <!--<script src="https://www.google.com/recaptcha/api.js" async defer></script>-->
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
-    <link rel="stylesheet" href="css/site.css">
-    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
-</head>
-
-<body>
-<main>
-    <header id="site-header">
-        <div class="container">
-            <div class="logo">
-                <a href="/">
-                    <img src="images/GemStateOfMind-Logo-WhiteText.svg" />
-                </a>
-            </div>
-            <nav class="main-nav">
-                <ul>
-                    <li>
-                        <a href="/">Home</a>
-                    </li>
-                    <li>
-                        <a href="/about">About</a>
-                    </li>
-                    <li>
-                        <a href="/blog">Blog</a>
-                    </li>
-                    <li>
-                        <a href="/contact">Contact</a>
-                    </li>
-                </ul>
-                <div class="cta">
-                    <a href="submit-story" class="btn">Submit a Story</a>
-                </div>
-            </nav>
-        </div>
-    </header>
     <section class="banner home-feature">
         <div class="container">
             <p class="heading hero">Gem State<br/>of Mind</p>
@@ -88,7 +39,20 @@
     <section class="pods blog-listing">
         <div class="container">
             <div class="component-inner">
-                <a class="item" href="blog/posts/2021/kid-friendly-activities-to-do-in-coeur-d-alene-idaho-in-the-summer/">
+                {% for post in site.posts limit:4 %}
+                <a class="item" href="{{ post.url }}">
+                    <div class="image" style="background-image: url({{ post.main_image }});">
+                        <p class="category">Activities</p>
+                        <img src="{{ post.main_image }}" />
+                    </div>
+                    <div class="text">
+                        <p class="date">{{ post.date | date: "%B %-d, %Y" }}</p>
+                        <p class="heading">{{ post.title }}</p>
+                        <p class="read-story">Read Story</p>
+                    </div>
+                </a>
+                {% endfor %}
+                <!-- <a class="item" href="blog/posts/2021/kid-friendly-activities-to-do-in-coeur-d-alene-idaho-in-the-summer/">
                     <div class="image" style="background-image: url(blog/posts/2021/kid-friendly-activities-to-do-in-coeur-d-alene-idaho-in-the-summer/home_mceuen.jpg);">
                         <p class="category">Activities</p>
                         <img src="blog/posts/2021/kid-friendly-activities-to-do-in-coeur-d-alene-idaho-in-the-summer/home_mceuen.jpg" />
@@ -131,54 +95,9 @@
                         <p class="heading">Now It Is Even Easier to Get Your Idaho State Parks Passport</p>
                         <p class="read-story">Read Story</p>
                     </div>
-                </a>
+                </a> -->
             </div>
         </div>
     </section>
 
-    <footer id="site-footer">
-        <div class="footer-logo">
-            <img src="images/GemStateOfMind-Icon.svg" />
-        </div>
-        <div class="socials">
-            <ul>
-                <li>
-                    <a href="https://www.facebook.com/GemStateMind" target="_blank">
-                        <i class="bi bi-facebook"></i>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.instagram.com/gemstatemind/" target="_blank">
-                        <i class="bi bi-instagram"></i>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.youtube.com/channel/UCb4ksmLTk1WuCaC8c_gbbFg" target="_blank">
-                        <i class="bi bi-youtube"></i>
-                    </a>
-                </li>
-            </ul>
-        </div>
-    </footer>
-</main>
-
-<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-<script type="text/javascript">
-    $(document).ready(function(){
-        $('.slider').slick({
-            infinite: true,
-            arrows: false,
-            autoplay: true,
-            autoplaySpeed: 5000,
-            fade: true,
-            pauseOnFocus: false,
-            pauseOnHover: false,
-            speed: 1000
-        });
-    });
-</script>
-
-
-</body>
-</html>
+    

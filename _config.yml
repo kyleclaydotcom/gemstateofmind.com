@@ -1,0 +1,22 @@
+url: "https://kyleclaydotcom.github.io/gemstateofmind.com" # the base hostname & protocol for your site
+site_title: "Gem State of Mind" # the name of your site
+site_banner: "" # the author of the site
+site_description: "" # a short description of your site
+plugins:
+  - jekyll-sitemap
+defaults:
+  -
+    scope:
+      path: "assets/**"
+    values:
+      sitemap: false
+page_excerpts: true
+layout: default
+permalink: :basename
+collections:
+  categories: #see https://jetholt.com/micro/jekyll-tags-and-categories/
+    output: true
+    permalink: /categories/:name #see https://jekyllrb.com/docs/permalinks/
+  posts:
+    permalink: /blog/posts/:year/:slug #see https://jekyllrb.com/docs/permalinks/
+    excerpt_separator: <!--more-->
