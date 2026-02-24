@@ -511,7 +511,7 @@ footer#site-footer .socials {
 }
 .post-content .slider img {
     margin: 20px !important;
-    max-width: 500px;
+    /* max-width: 500px; */
 }
 .author-card {
     display: flex;
