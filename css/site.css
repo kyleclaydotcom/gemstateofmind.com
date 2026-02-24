@@ -509,9 +509,10 @@ footer#site-footer .socials {
     margin: 0 20px 0 0;
     font-size: 14px;
 }
-/* .post-content .slider img {
-    padding: 20px;
-} */
+.post-content .slider img {
+    margin: 20px;
+    max-width: 500px;
+}
 .author-card {
     display: flex;
     flex-direction: column-reverse;
