@@ -20,6 +20,13 @@ body {
     line-height: 1.5;
     font-size: 18px;
 }
+body p.small {
+    font-size: 14px;
+}
+body p.small.credit {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+}
 body main ul {
     padding-left: 30px;
 }
