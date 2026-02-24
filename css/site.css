@@ -26,6 +26,7 @@ body p.small {
 body p.small.credit {
     font-family: "Inter", sans-serif;
     font-weight: 400;
+    margin: 5px 0 0;
 }
 body main ul {
     padding-left: 30px;
