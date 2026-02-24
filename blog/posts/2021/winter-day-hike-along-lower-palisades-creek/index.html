@@ -76,18 +76,7 @@
                 <p>If you’re in Eastern Idaho, this quick drive to the trailhead and a solid hike into nature and back is very feasible in one day. The hour-long drive from Idaho Falls is a scenic one with a couple of 6% grades and a good number of curves to help keep the drive interesting. Once we arrived, there wasn’t a ton of parking but that could have been because the snow had taken over - it seemed as if the snow had covered a road that goes right up to the trailhead. Perhaps when we visit again in the spring we will have a better lay of the land.</p>
                 <h2>The Sights</h2>
                 <p>My favorite part of this hike is that you're following the Palisades Creek the entire time. There are a few bridges that take you from one side to the other, and back. At some points, you wind up into the mountainside, but you can always hear the creek tumbling through the valley. We only got so far into this trail, but there are some pretty cool rocky peaks that you work your way up to and around. It is pretty impressive how steep the incline is from the creekbed upward. We didn't see any wildlife, besides other hikers' dogs on the trail, so that was one disappointment. I'm hoping all the little critters come out in the spring and summertime so I can make a trip back to the trail to pay them a visit.</p>
-                <div class="slider-for">
-                    <img src="ice-formations.jpg" alt="" />
-                    <img src="creek-facing-north.jpg" alt="" />
-                    <img src="snowy-mountains-and-trees.jpg" alt="" />
-                    <img src="along-creekbed.jpg" alt="" />
-                    <img src="britney-on-bridge.jpg" alt="" />
-                    <img src="creek-facing-south.jpg" alt="" />
-                    <img src="peak-from-a-distance.jpg" alt="" />
-                    <img src="creek-horseshoe.jpg" alt="" />
-                    <img src="view-of-peak.jpg" alt="" />
-                </div>
-                <div class="slider-nav">
+                <div class="slider">
                     <img src="ice-formations.jpg" alt="" />
                     <img src="creek-facing-north.jpg" alt="" />
                     <img src="snowy-mountains-and-trees.jpg" alt="" />
@@ -159,18 +148,12 @@
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script type="text/javascript">
         $(document).ready(function(){
-            $('.slider-for').slick({
-                slidesToShow: 1,
-                slidesToScroll: 1,
-                arrows: false,
-                fade: true,
-                asNavFor: '.slider-nav'
-            });
-            $('.slider-nav').slick({
+            $('.slider').slick({
                 slidesToShow: 3,
                 slidesToScroll: 1,
                 asNavFor: '.slider-for',
                 dots: true,
+                arrows: true,
                 centerMode: true,
                 focusOnSelect: true,
                 variableWidth: true
