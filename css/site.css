@@ -395,6 +395,10 @@ footer#site-footer .socials {
 }
 
 /* Blog Listings */
+.blog-page .archive {
+    max-width: 1500px;
+    margin: 60px auto;
+}
 .blog-listing .component-inner {
     display: flex;
     justify-content: space-evenly;
