@@ -230,7 +230,7 @@ header#site-header {
     padding: 10px 25px;
     display: flex;
     align-items: center;
-    height: 60px;
+    height: 80px;
     position: fixed;
     top: 0;
     right: 0;
@@ -239,8 +239,8 @@ header#site-header {
     z-index: 1000;
 }
 header#site-header .logo img {
-    width: 100px;
-    height: 40px;
+    width: 150px;
+    height: 60px;
 }
 header#site-header .container {
     display: flex;
@@ -310,6 +310,7 @@ header#site-header .container {
     }
         header#site-header nav.main-nav ul li {
             margin-left: 20px;
+            margin-bottom: 0;
         }
     header#site-header .cta {
         margin-left: 40px;
