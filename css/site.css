@@ -298,6 +298,7 @@ header#site-header .container {
     }
     header#site-header nav.main-nav ul {
         flex-direction: row;
+        margin-bottom: 0;
     }
         header#site-header nav.main-nav ul li {
             margin-left: 20px;
