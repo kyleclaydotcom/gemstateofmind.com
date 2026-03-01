@@ -544,6 +544,7 @@ footer#site-footer .socials {
     .blog-page .archive .sidebar {
         width: 300px;
         padding: 0;
+        margin: 0;
     }
 }
 
