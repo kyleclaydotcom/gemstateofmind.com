@@ -62,6 +62,10 @@ body main a {
     }
 }
 
+#mc_embed_signup form {
+    color: #202020;
+}
+
 /* Typography */
 h1,
 h2,
@@ -285,6 +289,9 @@ footer#site-footer .socials {
 .title-banner {
     padding: 80px 20px;
     background: #110c18;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 
 .title-banner .secondary-heading {
@@ -298,7 +305,6 @@ footer#site-footer .socials {
 
 .title-banner h1 {
     font-family: 'Kisba Black', serif;
-    color: #ffb70d;
 }
 
 .title-banner p {
