@@ -66,6 +66,10 @@ body main a {
     padding: 20px;
 }
 
+#mc_embed_signup {
+    width: 100%;
+}
+
 .text-center {
     text-align: center;
 }
