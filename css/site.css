@@ -261,6 +261,13 @@ header#site-header .container {
     header#site-header .offcanvas-lg nav.main-nav {
         display: block;
     }
+    header#site-header .offcanvas-lg button.btn {
+        padding: 0;
+        background: transparent;
+        border: 0;
+        color: #fff;
+        font-size: 36px;
+    }
     header#site-header nav.main-nav ul {
         list-style: none;
         display: flex;
@@ -269,13 +276,14 @@ header#site-header .container {
     }
         header#site-header nav.main-nav ul li {
             margin-left: 0;
+            margin-bottom: 15px;
         }
             header#site-header nav.main-nav ul li a {
                 text-decoration: none;
                 text-transform: uppercase;
             }
     header#site-header .cta {
-        margin-left: 40px;
+        margin-left: 0;
     }
         header#site-header .btn {
             margin: 0;
@@ -303,6 +311,9 @@ header#site-header .container {
         header#site-header nav.main-nav ul li {
             margin-left: 20px;
         }
+    header#site-header .cta {
+        margin-left: 40px;
+    }
     header#site-header .offcanvas-lg {
         display: none;
     }
