@@ -74,7 +74,7 @@ h4,
 h5,
 h6 {
     font-family: 'Kisba Black', serif;
-    margin: 10px 0 15px;
+    margin: 15px 0 10px;
 }
 h1 {
     font-size: 40px;
@@ -102,7 +102,7 @@ h6 {
     h4,
     h5,
     h6 {
-        margin: 12px 0 18px;
+        margin: 18px 0 12px;
     }
     h1 {
         font-size: 50px;
@@ -131,7 +131,7 @@ h6 {
     h4,
     h5,
     h6 {
-        margin: 15px 0 20px;
+        margin: 20px 0 15px;
     }
     h1 {
         font-size: 60px;
@@ -436,10 +436,8 @@ footer#site-footer .socials {
     max-width: 576px;
     margin: 60px auto;
 }
-.blog-listing .sidebar {
-    padding: 0 25px;
-    max-width: 576px;
-    margin: auto;
+.blog-page .blog-listing .component-inner {
+    margin: 0 auto;
 }
 .blog-listing .item {
     width: 100%;
@@ -498,6 +496,26 @@ footer#site-footer .socials {
     font-weight: 300;
     text-transform: uppercase;
     padding-top: 15px;
+}
+.blog-listing .sidebar {
+    padding: 0 25px;
+    max-width: 576px;
+    margin: auto;
+}
+.blog-listing .sidebar h5 {
+    font-family: "Inter", sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.blog-listing .sidebar h6 {
+    font-family: "Inter", sans-serif;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+.blog-listing .sidebar ul {
+    font-size: 16px;
+    list-style: none;
+    padding-left: 0;
 }
 
 @media (min-width: 768px) {
