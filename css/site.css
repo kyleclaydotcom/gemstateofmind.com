@@ -436,6 +436,11 @@ footer#site-footer .socials {
     max-width: 576px;
     margin: 60px auto;
 }
+.blog-listing .sidebar {
+    padding: 0 25px;
+    max-width: 576px;
+    margin: auto;
+}
 .blog-listing .item {
     width: 100%;
     background: rgba(255,255,255,0.1);
@@ -499,12 +504,27 @@ footer#site-footer .socials {
     .blog-listing .component-inner {
         max-width: 1200px;
     }
+    .blog-listing .sidebar {
+        padding: 0 50px;
+    }
     .blog-listing .item {
         width: 45%;
         background: rgba(255,255,255,0.1);
         border-radius: 15px;
         overflow: hidden;
         margin-bottom: 25px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .blog-page .archive {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+    }
+    .blog-page .sidebar {
+        width: 300px;
     }
 }
 
@@ -532,7 +552,7 @@ footer#site-footer .socials {
     margin: 40px 0;
 }
 .blog-post .post-content img {
-    margin: 20px 0 0;
+    margin: 10px 0 15px;
 }
 .post-content .post-date,
 .post-content .post-categories {
