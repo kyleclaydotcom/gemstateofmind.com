@@ -313,6 +313,7 @@ footer#site-footer .socials {
         list-style: none;
         margin: 0;
         justify-content: center;
+        padding-left: 0;
     }
     footer#site-footer .socials ul li {
         margin: 0 15px;
