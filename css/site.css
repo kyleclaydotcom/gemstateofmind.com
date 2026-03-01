@@ -497,22 +497,22 @@ footer#site-footer .socials {
     text-transform: uppercase;
     padding-top: 15px;
 }
-.blog-listing .sidebar {
+.blog-page .archive .sidebar {
     padding: 0 25px;
     max-width: 576px;
     margin: auto;
 }
-.blog-listing .sidebar h5 {
+.blog-page .archive .sidebar h5 {
     font-family: "Inter", sans-serif;
     text-transform: uppercase;
     font-weight: 700;
 }
-.blog-listing .sidebar h6 {
+.blog-page .archive .sidebar h6 {
     font-family: "Inter", sans-serif;
     text-transform: uppercase;
     font-weight: 300;
 }
-.blog-listing .sidebar ul {
+.blog-page .archive .sidebar ul {
     font-size: 16px;
     list-style: none;
     padding-left: 0;
@@ -522,7 +522,7 @@ footer#site-footer .socials {
     .blog-listing .component-inner {
         max-width: 1200px;
     }
-    .blog-listing .sidebar {
+    .blog-page .archive .sidebar {
         padding: 0 50px;
     }
     .blog-listing .item {
@@ -541,8 +541,9 @@ footer#site-footer .socials {
         justify-content: space-between;
         flex-wrap: nowrap;
     }
-    .blog-page .sidebar {
+    .blog-page .archive .sidebar {
         width: 300px;
+        padding: 0;
     }
 }
 
