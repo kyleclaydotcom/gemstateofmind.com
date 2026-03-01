@@ -67,7 +67,7 @@ body main a {
 }
 
 #mc_embed_signup {
-    width: 100%;
+    width: 100% !important;
 }
 
 .text-center {
