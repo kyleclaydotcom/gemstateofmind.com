@@ -261,7 +261,7 @@ header#site-header .container {
     header#site-header .offcanvas-lg nav.main-nav {
         display: block;
     }
-    header#site-header .offcanvas-lg button.btn {
+    header#site-header button.btn {
         padding: 0;
         background: transparent;
         border: 0;
