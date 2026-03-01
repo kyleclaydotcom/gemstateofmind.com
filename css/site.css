@@ -252,6 +252,10 @@ header#site-header .container {
         flex-direction: row;
         align-items: center;
         font-family: "Inter", sans-serif;
+        display: none;
+    }
+    header#site-header .offcanvas-lg nav.main-nav {
+        display: block;
     }
     header#site-header nav.main-nav ul {
         list-style: none;
@@ -272,7 +276,7 @@ header#site-header .container {
             margin: 0;
         }
 
-@media (min-width: 768px) {
+@media (min-width: 992px) {
     header#site-header {
         padding: 15px;
         height: 100px;
@@ -286,6 +290,9 @@ header#site-header .container {
     }
     header#site-header nav.main-nav {
         display: flex;
+    }
+    header#site-header .offcanvas-lg {
+        display: none;
     }
 }
 
