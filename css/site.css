@@ -195,6 +195,34 @@ a:not([class]) {
     font-size: 14px;
 }
 
+/* Components */
+.component {
+    padding: 30px 0;
+}
+@media (min-width: 992px) {
+    .component {
+        padding: 50px 0;
+    }
+}
+@media (min-width: 1500px) {
+    .component {
+        padding: 80px 0;
+    }
+}
+
+@media (min-width: 1200px) {
+    .component .row {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+    }
+    .row .col-6 {
+        width: 48%;
+    }
+}
+
+
 /* Header */
 header#site-header {
     background: rgba(30, 21, 42, 0.9);
