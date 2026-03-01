@@ -296,6 +296,12 @@ header#site-header .container {
     header#site-header nav.main-nav {
         display: flex;
     }
+    header#site-header nav.main-nav ul {
+        flex-direction: row;
+    }
+        header#site-header nav.main-nav ul li {
+            margin-left: 20px;
+        }
     header#site-header .offcanvas-lg {
         display: none;
     }
